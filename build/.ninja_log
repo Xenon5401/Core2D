@@ -1,0 +1,14 @@
+# ninja log v7
+1	6	1761663254795359029	/home/etann/Documents/DevAll/C++/build/CMakeFiles/cmake.verify_globs	2aacc5b527e5bb89
+7	387	1761663254802025743	CMakeFiles/simple_example.dir/src/objectsystem.cpp.o	e778c018195c4693
+8	547	1761663254802025743	CMakeFiles/simple_example.dir/src/spacetable.cpp.o	7a13d78359478cbc
+8	970	1761663254802025743	CMakeFiles/simple_example.dir/src/window.cpp.o	38c55901c26753ba
+7	973	1761663254802025743	CMakeFiles/simple_example.dir/src/renderstrategy.cpp.o	7e3533789c40e47a
+7	1159	1761663254802025743	CMakeFiles/simple_example.dir/src/main.cpp.o	de8d791faed5e7c5
+1	6	1761663373186224691	/home/etann/Documents/DevAll/C++/build/CMakeFiles/cmake.verify_globs	2aacc5b527e5bb89
+8	526	1761663373192891408	CMakeFiles/simple_example.dir/src/physicsystem.cpp.o	85e3e5773252258c
+8	950	1761663373192891408	CMakeFiles/simple_example.dir/src/main.cpp.o	de8d791faed5e7c5
+950	1014	1761663374136231847	simple_example	3bf847984fc3463d
+1	5	1761663412099853574	/home/etann/Documents/DevAll/C++/build/CMakeFiles/cmake.verify_globs	2aacc5b527e5bb89
+1	6	1761663475330343884	/home/etann/Documents/DevAll/C++/build/CMakeFiles/cmake.verify_globs	2aacc5b527e5bb89
+1	7	1761663480957054737	/home/etann/Documents/DevAll/C++/build/CMakeFiles/cmake.verify_globs	2aacc5b527e5bb89
