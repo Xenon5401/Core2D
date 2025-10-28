@@ -35,10 +35,6 @@ int main() {
     // Créer la grille spatiale pour les collisions
     space_table grid;
     grid.cellSize = 50.0f; // taille de cellule à ajuster selon tes cercles
-
-    for (int i = 0; i < 250; i++) {
-        main.object.Circle_add(main.circles, i * 20, 100, rand() % 70, -100, 10);
-    }
     
     // Ajouter quelques polygones pour tester le rendu
     main.object.Polygone_add(main.polygones, 200, 300, 10, 0, 0, 0, 1.0f, 1);
@@ -49,6 +45,17 @@ int main() {
         while (SDL_PollEvent(&event)) {
             if (event.type == SDL_QUIT) {
                 quit = true;
+            }
+            if (event.type == SDL_KEYDOWN) {
+                if (event.key.keysym.sym == SDLK_ESCAPE) {
+                    quit = true;
+                }
+                if (event.key.keysym.sym == SDLK_a) {
+                    main.object.Circle_add(main.circles, rand() % window_largeur, 0, rand() % 30 + 10, 0, 0);
+                }
+                if (event.key.keysym.sym == SDLK_8) {
+                    main.circles[0].phys.vy = -50.0f; // donner un coup de saut au premier cercle
+                }
             }
         }
 

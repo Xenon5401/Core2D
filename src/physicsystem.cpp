@@ -229,8 +229,6 @@ Point PhysicsSystem::get_max_dir(const vector<Point> &shape, Vec2 dir)
     return r;
 }
 
-// --- GJK helpers (file-local) ---
-
 static inline float dot(const Vec2 &a, const Vec2 &b)
 {
     return a.x * b.x + a.y * b.y;
