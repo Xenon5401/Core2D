@@ -53,7 +53,7 @@ int main() {
                 if (event.key.keysym.sym == SDLK_a) {
                     main.object.Circle_add(main.circles, rand() % window_largeur, 0, rand() % 30 + 10, 0, 0);
                 }
-                if (event.key.keysym.sym == SDLK_8) {
+                if (event.key.keysym.sym == SDLK_KP_8) {
                     main.circles[0].phys.vy = -50.0f; // donner un coup de saut au premier cercle
                 }
             }
